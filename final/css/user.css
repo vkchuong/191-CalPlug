@@ -1,0 +1,102 @@
+.wapper
+{
+  position:relative;
+  box-sizing:border-box;
+  margin:0 auto;
+  padding:60px;
+}
+
+header img
+{
+}
+
+main
+{
+  height:auto;
+  display:block;
+}
+
+h2.title
+{
+  font-size:24px;
+  line-height:28px;
+  margin-bottom: 10px;
+  color:#65CB87;
+}
+section.user-info
+{
+  margin: 50px 0px;
+}
+section .label
+{
+ font-size: 17px;
+ margin-bottom: 10px;
+ color:#777;
+}
+section input, section select
+{
+  color: #666;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  margin: 15px 0px;
+  border: 2px solid #65CB87;
+  border-radius: 20px;
+}
+section.charger-info .label
+{
+  margin: 70px 0px 0px;
+}
+section.vehicle-info .label
+{
+  margin: 25px 0px 0px;
+}
+section.note
+{
+  margin-top: 70px;
+ color:#777;
+ text-align: center;
+}
+footer
+{
+  display: block;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+}
+
+footer .next
+{
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+  color: #65CB87;
+  background-color: #fff;
+  border-radius: 20px;
+  text-decoration: underline;
+}
+
+header
+{
+  text-align: center;
+  opacity: 0.5;
+    padding-bottom: 30px;
+}
+
+@media (min-width: 801px) {
+  body
+  {
+    background:url(../image/iphone.png);
+    background-repeat:no-repeat;
+    background-size:500px 790px;
+    background-position:center 15px;
+    background-color: rgba(250,250,250,0.9);
+  }
+
+  header
+  {
+    padding-top: 30px;
+  }
+
+}
