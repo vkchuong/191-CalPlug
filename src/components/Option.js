@@ -2,7 +2,7 @@ import React from "react"
 
 function Option (props) {
     return (
-        <div className={"user-" + props.item.id, "option"}>
+        <div className={"user-" + props.item.id + " option"}>
             <div className="label">{props.item.label}</div>
             <div className="detail charge">Charge time: {props.item.charge}</div>
             <div className="detail ready">Charge end time: {props.item.ready}</div>
