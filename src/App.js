@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './style/base.css';
 import './style/home.css';
 import Notification from './components/Notification'
