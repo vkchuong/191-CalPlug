@@ -1,20 +1,24 @@
 import React from 'react';
-import './style/base.css';
-import './style/home.css';
-import Notification from './components/Notification'
-import Header from './components/Header'
-import MainContent from './components/MainContent'
-import Footer from './components/Footer'
-import Dialog from './components/Dialog'
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div className="wapper">
-      <Notification />
-      <Header />
-      <MainContent />
-      <Footer />
-      <Dialog />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
