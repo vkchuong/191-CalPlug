@@ -1,0 +1,362 @@
+.nav
+{
+  display:block;
+  font:13px Helvetica,Tahoma,serif;
+  text-transform:uppercase;
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.nav li
+{
+  display:inline-block;
+  list-style:none
+}
+
+.nav .button-dropdown
+{
+  position:relative
+}
+
+.nav li a
+{
+  display:block;
+  color:#333;
+  padding:0px 20px;
+  text-decoration:none
+}
+
+.nav li a span
+{
+  display:inline-block;
+  margin-left:5px;
+  font-size:10px;
+  color:#999
+}
+
+.nav li a.dropdown-toggle.active
+{
+  background-color:#289dcc;
+  color:#fff
+}
+
+.nav li a:hover span,.nav li a.dropdown-toggle.active span
+{
+  color:#fff
+}
+
+.nav li .dropdown-menu
+{
+  display:none;
+  position:absolute;
+  left:0;
+  padding:0;
+  margin:0;
+  margin-top:3px;
+  text-align:left
+}
+
+.nav li .dropdown-menu.active
+{
+  display:block
+}
+
+.nav li .dropdown-menu a
+{
+  width:120px;
+  border-bottom:1px solid #ccc;
+  background-color:#fff;
+}
+
+.nav li .dropdown-menu li a.add
+{
+  background-color:#68fb87;
+}
+
+.nav li .dropdown-menu li a.reset
+{
+  background-color: #ccc;
+}
+
+.notification
+{
+  position:absolute;
+  background:#fff;
+  height:110px;
+  width:100%;
+  z-index:1;
+  top:0;
+  padding:20px;
+  border-bottom:1px solid;
+  display:none
+}
+
+.notification h2
+{
+  font-weight:700;
+  margin-bottom:10px
+}
+
+.notification a
+{
+  font-weight:700;
+  margin:0 10px;
+  float:right;
+  padding:10px
+}
+
+.notification a:hover
+{
+  background-color:rgba(0,0,0,0.20)
+}
+
+.notification a.charge
+{
+  color:#65CB87
+}
+
+.notification a.optimize
+{
+  color:rgba(24,160,251,0.7)
+}
+
+.wapper
+{
+  position:relative;
+  box-sizing:border-box;
+  margin:0 auto
+}
+
+header
+{
+  display:block;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #ccc;
+  padding-top:40px;
+}
+
+header .top
+{
+  display: block;
+  height: 40px;
+}
+
+header .setting
+{
+  position:absolute;
+  top:10px;
+  right:20px;
+  cursor:pointer
+}
+
+header .carinfo {
+  width: 70%;
+  margin: 0 auto;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  color: #000;
+  font-size: 90%;
+  padding: 0;
+}
+
+header .status
+{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  color: #666;
+}
+
+header .status > div
+{
+  width: 50%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header .status .left
+{
+  float: left;
+}
+
+header .status .right
+{
+  float: right;
+}
+
+header .status h2
+{
+  font-size: 17px;
+  text-decoration: underline;
+  line-height: 30px;
+  display: none;
+}
+
+header .status h1
+{
+  font-size: 28px;
+  line-height: 50px;
+}
+
+header .status img
+{
+  width: 80%;
+}
+
+header .status .charge
+{
+  width: 100%;
+  color: #999;
+  margin-top: 10px;
+}
+/* Begin Tab */
+/* End Tab */
+main
+{
+  height:auto;
+  display:block;
+  margin-bottom:30px;
+}
+
+main .profile
+{
+  text-align:left;
+  margin-bottom:30px;
+}
+
+main .profile .option
+{
+  border: 1px solid #5AD282;
+}
+
+main .profile .active
+{
+  border: 1px solid rgba(24,160,251,0.7);
+}
+
+main .profile > div
+{
+  position: relative;
+  width:90%;
+  height:80px;
+  padding:10px;
+  line-height:20px;
+  cursor:pointer;
+  margin: 0px auto 20px;
+  border: 1px solid #ccc;
+}
+
+main .profile .icon img
+{
+  position: absolute;
+  width: 50px;
+}
+main .profile .icon img.tree
+{
+  bottom: 10px;
+  right: 10px;
+}
+main .profile .icon img.save
+{
+  width: 50px;
+  bottom: 10px;
+  right: 70px;
+}
+
+main .profile > div:hover
+{
+  background-color:rgba(0,0,0,0.30)
+}
+
+main .profile .label
+{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+main .profile .detail
+{
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+footer
+{
+  display:block;
+  text-align:center
+}
+h3.title
+{
+  font-size:24px;
+  line-height:28px;
+  color:#65CB87;
+  text-align: center;
+  margin: 10px 0;
+}
+footer .chargenow
+{
+  color:#e74c3c;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.refresh {
+    font-size: 16px;
+    line-height: 23px;
+    color: rgba(24,160,251,0.7);
+    text-align: right;
+    margin: 0 20px;
+    display: block;
+    font-weight: bold;
+}
+
+#dialog h3
+{
+  color:#65CB87;
+  font-weight:700;
+  line-height:35px
+}
+
+#dialog p
+{
+  line-height:18px;
+  text-indent:30px;
+  margin-bottom:10px
+}
+
+
+@media (min-width: 801px) {
+  header
+  {
+    padding-top:0px;
+  }
+  body {
+    padding-top: 70px;
+  }
+  .notification
+  {
+    position:absolute;
+    background:#fff;
+    height:110px;
+    width:430px;
+    z-index:1;
+    top:0;
+    padding:20px;
+    border-bottom:1px solid;
+    display:none;
+    left:10px
+  }
+
+  .nav
+  {
+    left:10px
+  }
+}

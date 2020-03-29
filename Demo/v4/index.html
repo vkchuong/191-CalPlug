@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>CarPlug</title>
+    <meta name="description" content="The California Plug Load Research Center (CalPlug) was established to improve energy efficiency in the use and design of appliances and consumer electronic devices. The Center has already earned research funding support from the California Energy Commission, for $1 million." />
+    <meta name="keywords" content="calplug, energy, power saving" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="js/action.js"></script>
+
+  <script>
+  </script>
+
+</head>
+<body>
+<div class="wapper">
+    <div class="notification">
+        <h2>CarPlug</h2>
+        <p>Plugged in, wait for action.</p>
+        <a href="#" class="optimize" onclick="plugIn();"> Optimize </a>
+        <a href="#" class="charge" onclick="plugIn();"> Charge Now </a>
+    </div>
+    <header>
+        <div class="top">
+            <ul class="nav">
+              <li class="button-dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle">
+                  <img src="image/icons/home/profile.png" width="40">
+                </a>
+                <ul class="dropdown-menu">
+                  <li> <a href="?profile=1"> Vehicle 1 </a> </li>
+                  <li> <a href="?profile=2"> Vehicle 2 </a> </li>
+                  <li> <a href="?profile=3"> Vehicle 3 </a> </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="carinfo">
+                <li>Car Name: Emon Car</li>
+                <li>Car Id: E1596156</li>
+                <li>Battery Capacity: 15000 kW</li>
+            </ul>
+            <div class="setting"><a href="setting.php"><img src="image/icons/home/preferences.png" width="40"></a></div>
+        </div>
+        <div class="status clearfix">
+            <div class="left" onclick="saveInfo();">
+                <h2>Monthly Savings</h2>
+                <h1>$50.00</h1>
+                <h2>Tree Plantings <img src="image/info.png" class="tree" style="width: 12px !important;" /></h2>
+                <h1>
+                    <i class="icon"><img src="image/icons/tree/lv5.png" class="tree" style="width: 50px !important;" /> X 10.5</i>
+                </h1>
+            </div>
+            <div class="right">
+                <img src="image/icons/home/unplug.png" onclick="charge();" />
+                <h4 class="charge" href="#" onclick="plugIn();">Status: Charging (50%)</h4>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="profile">
+            <h3 class="chargenow">Best Charging Option</h3>
+            <div class="user-1 active">
+                <div class="label">Great Societal Impact</div>
+                <div class="detail charge">Charge time: 2 hr</div>
+                <div class="detail ready">Charge end time: 3:00</div>
+                <p class="icon"><img src="image/icons/tree/lv1.png" class="tree" /></p>
+                <p class="icon"><img src="image/icons/save/lv0.png" class="save" ></p>
+            </div>
+            <div class="user-2 option">
+                <div class="label">Save money</div>
+                <div class="detail charge">Charge time: 3 hr</div>
+                <div class="detail ready">Charge end time: 4:00</div>
+                <p class="icon"><img src="image/icons/tree/lv2.png" class="tree" /></p>
+                <p class="icon"><img src="image/icons/save/lv4.png" class="save" ></p>
+            </div>
+            <div class="user-3 option">
+                <div class="label">Save money and Environment</div>
+                <div class="detail charge">Charge time: 5 hr</div>
+                <div class="detail ready">Charge end time: 6:00</div>
+                <p class="icon"><img src="image/icons/tree/lv5.png" class="tree" /></p>
+                <p class="icon"><img src="image/icons/save/lv5.png" class="save" ></p>
+            </div>
+            <a href="#" class="refresh">Provide More Options</a>
+        </section>
+    </main>
+    <footer style="margin-top: -5px;">
+        <p style="line-height: 30px;">No option work for me at this time</p>
+        <a href="#" class="chargenow">Charge Now <img src="image/triggering.png" width="20"></a>
+    </footer>
+    <div id="dialog" title="Help" style="display: none;">
+        <h3>Environmental Impact:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <h3>Cost Efficiency:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <h3>Social Impact:</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+    </div>
+</div>
+</body>
+</html>
