@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "My Tesla",
+        "evse": "ABCDEF",
+        "cap": "19000kw",
+        "money": "50.99",
+        "gas": "50",
+        "status": "unplug",
+    },
+    {
+        "id": 2,
+        "name": "Profile 2",
+        "evse": "ABCDEF",
+        "cap": "18000kw",
+        "money": "40.38",
+        "gas": "40",
+        "status": "plug",
+    },
+    {
+        "id": 3,
+        "name": "Profile 3",
+        "evse": "ABCDEF",
+        "cap": "20000kw",
+        "money": "20.00",
+        "gas": "15",
+        "status": "charging",
+    }
+]
