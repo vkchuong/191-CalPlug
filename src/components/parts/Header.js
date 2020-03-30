@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 function Header (props) {
     return (
@@ -6,15 +7,15 @@ function Header (props) {
             <div className="top">
                 <ul className="nav">
                   <li className="button-dropdown">
-                    <a href="./" className="dropdown-toggle">
+                    <Link href="./" className="dropdown-toggle">
                       <img src="images/home/menu.png" width="30" alt="Menu Icon"/>
-                    </a>
+                    </Link>
                     <ul className="dropdown-menu">
-                      <li> <a href="/setting"> Emon Car </a> </li>
-                      <li> <a href="/setting"> Vehicle 2 </a> </li>
-                      <li> <a href="/setting"> Vehicle 3 </a> </li>
-                      <li> <a href="/vehicle" className="add"> More Car </a> </li>
-                      <li> <a href="/" className="reset"> Reset </a> </li>
+                      <li> <Link to="/setting"> Emon Car </Link> </li>
+                      <li> <Link to="/setting"> Vehicle 2 </Link> </li>
+                      <li> <Link to="/setting"> Vehicle 3 </Link> </li>
+                      <li> <Link to="/vehicle" className="add"> More Car </Link> </li>
+                      <li> <Link to="/" className="reset"> Reset </Link> </li>
                     </ul>
                   </li>
                 </ul>
@@ -22,7 +23,7 @@ function Header (props) {
                     <li>Emon Car Charging</li>
                     <li>@ My House</li>
                 </ul>
-                <div className="setting"><a href="/setting"><img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/><img src="images/home/preferences.png" width="35" alt="Icon Preferences"/></a></div>
+                <div className="setting"><Link href="/setting"><img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/><img src="images/home/preferences.png" width="35" alt="Icon Preferences"/></Link></div>
             </div>
             <div className="status clearfix">
                 <div className="left">
