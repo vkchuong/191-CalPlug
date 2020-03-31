@@ -33,8 +33,8 @@ class Header extends React.Component {
                     </li>
                   </ul>
                   <ul className="carinfo">
-                      <li>Emon's Car Charging</li>
-                      <li>@ My House</li>
+                      <li>Vehicle: Emon's Car</li>
+                      <li>Location: My House</li>
                   </ul>
                   <div className="setting">
                     <Link to="/setting">
@@ -45,13 +45,15 @@ class Header extends React.Component {
               </div>
               <div className="status clearfix">
                   <div className="left">
-                      <h2>Monthly Savings</h2>
-                      <h1><img src="images/save/lv5.png" className="tree" style={{width: 50}} alt="Icon" /> $40.38</h1>
-                      <h2>Tree Planted <img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
-                      <h1><i className="icon"><img src="images/tree/lv5.png" className="tree" style={{width: 50}} alt="Icon" /> x10.5</i></h1>
+                      <h2>Projected Monthly Savings</h2>
+                      <div><img src="images/save/lv5.png" className="piggybank" style={{width: 60}} alt="Icon" /></div>
+                      <div className="money-savings">$40.38</div>
+                      <h2>Trees Planted <img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
+                      <div><i className="icon"><img src="images/tree/lv5.png" className="tree" style={{width: 60}} alt="Icon" /></i></div>
+                      <div className="tree-savings">x10.5</div>
                   </div>
                   <div className="right">
-                      <b>Emon's Car</b>
+                      <div>Emon's Car</div>
                       <img src="images/home/unplug.png" alt="Icon" />
                       <h4 className="charge" to="/setting">Status: Unplugged</h4>
                   </div>

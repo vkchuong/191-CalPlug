@@ -17,9 +17,9 @@ function App() {
     <div>
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/home" exact component={Home} />
+                <Route path="/" exact component={User} />
                 <Route path="/user" component={User} />
+                <Route path="/home" exact component={Home} />
                 <Route path="/charger" component={Charger} />
                 <Route path="/vehicle" component={Vehicle} />
                 <Route path="/setting" component={Setting} />

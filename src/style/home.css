@@ -154,31 +154,57 @@ header .status {
 header .status > div {
   width: 50%;
   text-align: center;
-  padding: 10px 0;
+  padding: 0;
 }
 
 header .status .left {
   float: left;
 }
 
+header .status .left div .piggybank{
+  float: left;
+}
+
+header .status .left div .tree{
+  float: left;
+}
+
+header .status .left .money-savings{
+  float: right;
+  font-size: 25px;
+  margin: 20px 0 0px 0;
+}
+
+header .status .left .tree-savings{
+  float: right;
+  font-size: 25px;
+  padding: 20px 14px 0px 0;
+}
+
+header .status .left h2 {
+  font-size: 16px;
+  line-height: 25px;
+  float: left;
+  margin: 5px 0 0px 20px;
+}
+
 header .status .right {
   float: right;
+  padding-top: 25px;
 }
 
-header .status h2 {
-  font-size: 17px;
-  text-decoration: underline;
-  line-height: 30px;
-  display: none;
+header .status .right img {
+  width: 12rem;
+  padding: 10px;
 }
 
-header .status h1 {
-  font-size: 28px;
-  line-height: 50px;
+header .status .right div {
+  text-align: right;
 }
 
-header .status img {
-  width: 80%;
+header .status .right h4 {
+  text-align: right;
+  margin-left: 20px;
 }
 
 header .status .charge {
@@ -215,7 +241,7 @@ main .profile > div {
   padding:10px;
   line-height:20px;
   cursor:pointer;
-  margin: 0px auto 20px;
+  margin: 0px auto 15px;
   border: 1px solid #ccc;
 }
 
@@ -250,8 +276,10 @@ main .profile .detail {
 
 footer {
   display:block;
-  text-align:center
+  text-align:center;
+  margin-top: -30px;
 }
+
 h3.title {
   font-size:24px;
   line-height:28px;
@@ -259,20 +287,28 @@ h3.title {
   text-align: center;
   margin: 10px 0;
 }
+
+footer p {
+  line-height: 40px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
 footer .chargenow {
-  color:#e74c3c;
+  color:rgb(65, 161, 97);
   border: 1px solid #ccc;
   padding: 10px 20px;
   background-color: #fff;
   border-radius: 20px;
+  font-weight: 550;
 }
 
 .refresh {
     font-size: 16px;
-    line-height: 23px;
+    line-height: 5px;
     color: rgba(24,160,251,0.7);
     text-align: right;
-    margin: 0 20px;
+    margin: 0px 40px;
     display: block;
     font-weight: bold;
 }
