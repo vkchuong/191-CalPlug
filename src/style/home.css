@@ -161,31 +161,28 @@ header .status .left {
   float: left;
 }
 
-header .status .left div .piggybank{
-  float: left;
-}
-
-header .status .left div .tree{
-  float: left;
+header .status .left span{
+  float: center;
+  text-align: center;
 }
 
 header .status .left .money-savings{
   float: right;
   font-size: 25px;
-  margin: 20px 0 0px 0;
+  margin: 20px 0px 0 10px;
 }
 
 header .status .left .tree-savings{
   float: right;
   font-size: 25px;
-  padding: 20px 14px 0px 0;
+  padding: 20px 0 0 10px;
 }
 
 header .status .left h2 {
   font-size: 16px;
   line-height: 25px;
-  float: left;
-  margin: 5px 0 0px 20px;
+  float: center;
+  margin: 10px 10px 0px 20px;
 }
 
 header .status .right {
@@ -194,17 +191,20 @@ header .status .right {
 }
 
 header .status .right img {
+  float: center;
+  /* text-align: center; */
   width: 12rem;
   padding: 10px;
 }
 
 header .status .right div {
-  text-align: right;
+  text-align: center;
 }
 
 header .status .right h4 {
-  text-align: right;
-  margin-left: 20px;
+  float: right;
+  text-align: center;
+  padding-left: 25px;
 }
 
 header .status .charge {
