@@ -10,7 +10,7 @@ function MainContent (props) {
             <section className="profile">
                 <h3 className="title">Your Charging Options</h3>
                 {optionList}
-                <Link to="./" className="refresh">Provide More Options</Link>
+                <Link to="./home" className="refresh">Provide More Options</Link>
             </section>
         </main>
     )
