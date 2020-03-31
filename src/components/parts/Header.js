@@ -53,7 +53,7 @@ class Header extends React.Component {
                   <div className="right">
                       <b>Emon's Car</b>
                       <img src="images/home/unplug.png" alt="Icon" />
-                      <h4 className="charge" to="/setting">Status: Unplugged</h4>
+                      <h4 className="charge" to="/setting">Status: No power</h4>
                   </div>
               </div>
           </header>
