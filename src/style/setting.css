@@ -46,14 +46,14 @@ main .log .label {
     font-weight: bold;
     top: 8px;
     position: relative;
-    left: 20px;
+    left: 9px;
     background-color: #fff;
     display: inline-block;
     padding: 0px 10px;
 }
 main .log .detail
 {
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
 }
 
 main .log .detail ul

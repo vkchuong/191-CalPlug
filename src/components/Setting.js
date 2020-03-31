@@ -108,7 +108,7 @@ class Setting extends React.Component {
                             <InputSelect
                                 label="Charger"
                                 name="provider"
-                                options={[ "Emon Home Charger", "My Home Charger", "03:00 AM", "04:00 AM", "05:00 AM", "06:00 AM", "07:00 AM", "08:00 AM", "09:00 AM" ]}
+                                options={[ "Emon's Home Charger", "My Home Charger", "03:00 AM", "04:00 AM", "05:00 AM", "06:00 AM", "07:00 AM", "08:00 AM", "09:00 AM" ]}
                             />
                         </section>
                         <section className="log">

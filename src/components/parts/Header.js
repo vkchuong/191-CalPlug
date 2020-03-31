@@ -11,7 +11,7 @@ function Header (props) {
                       <img src="images/home/menu.png" width="30" alt="Menu Icon"/>
                     </Link>
                     <ul className="dropdown-menu">
-                      <li> <Link to="/setting"> Emon Car </Link> </li>
+                      <li> <Link to="/setting"> Emon's Car </Link> </li>
                       <li> <Link to="/setting"> Vehicle 2 </Link> </li>
                       <li> <Link to="/setting"> Vehicle 3 </Link> </li>
                       <li> <Link to="/vehicle" className="add"> More Car </Link> </li>
@@ -20,8 +20,8 @@ function Header (props) {
                   </li>
                 </ul>
                 <ul className="carinfo">
-                    <li>Emon Car Charging</li>
-                    <li>@ My House</li>
+                    <li>Emon's Car Charging</li>
+                    <li>@ Home</li>
                 </ul>
                 <div className="setting">
                   <Link to="/setting">
@@ -34,13 +34,13 @@ function Header (props) {
                 <div className="left">
                     <h2>Monthly Savings</h2>
                     <h1><img src="images/save/lv5.png" className="tree" style={{width: 50}} alt="Icon" /> $40.38</h1>
-                    <h2>Tree Plantings <img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
+                    <h2>Trees Planted<img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
                     <h1><i className="icon"><img src="images/tree/lv5.png" className="tree" style={{width: 50}} alt="Icon" /> x10.5</i></h1>
                 </div>
                 <div className="right">
-                    <b>Emon Car</b>
+                    <b>Emon's Car</b>
                     <img src="images/home/unplug.png" alt="Icon" />
-                    <h4 className="charge" to="/setting">Status: unplug</h4>
+                    <h4 className="charge" to="/setting">Status: Unplugged</h4>
                 </div>
             </div>
         </header>

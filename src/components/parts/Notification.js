@@ -5,7 +5,7 @@ function Notification (props) {
     return (
         <div className="notification">
             <h2>CarPlug</h2>
-            <p>Plugged in, wait for action.</p>
+            <p>Plugged in, waiting for action.</p>
             <Link to="./" className="optimize"> Optimize </Link>
             <Link to="./" className="charge"> Charge Now </Link>
         </div>
