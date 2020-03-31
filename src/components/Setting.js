@@ -5,13 +5,6 @@ import Info from "./parts/Info"
 import InputSelect from "./parts/InputSelect"
 
 class Setting extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            "currentTab" : ""
-        }
-    }
-
     handleClick = cityName => e => {
         let tabcontent = document.getElementsByClassName("tabcontent");
         for (let i = 0; i < tabcontent.length; i++) {
