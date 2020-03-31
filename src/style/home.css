@@ -201,6 +201,7 @@ main .profile {
 
 main .profile .option {
   border: 1px solid #5AD282;
+  border-radius: 10px;
 }
 
 main .profile .active {

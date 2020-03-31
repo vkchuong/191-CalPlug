@@ -27,7 +27,7 @@ class Header extends React.Component {
                         <li> <Link to="/setting"> Emon's Car </Link> </li>
                         <li> <Link to="/setting"> Vehicle 2 </Link> </li>
                         <li> <Link to="/setting"> Vehicle 3 </Link> </li>
-                        <li> <Link to="/vehicle" className="add"> More Car </Link> </li>
+                        <li> <Link to="/vehicle" className="add"> More Cars </Link> </li>
                         <li> <Link to="/" className="reset"> Reset </Link> </li>
                       </ul>
                     </li>
@@ -53,7 +53,7 @@ class Header extends React.Component {
                   <div className="right">
                       <b>Emon's Car</b>
                       <img src="images/home/unplug.png" alt="Icon" />
-                      <h4 className="charge" to="/setting">Status: unplug</h4>
+                      <h4 className="charge" to="/setting">Status: Unplugged</h4>
                   </div>
               </div>
           </header>

@@ -8,7 +8,7 @@ function MainContent (props) {
     return (
         <main>
             <section className="profile">
-                <h3 className="title">Best Charging Option</h3>
+                <h3 className="title">Best Charging Options</h3>
                 {optionList}
                 <Link to="./" className="refresh">Provide More Options</Link>
             </section>
