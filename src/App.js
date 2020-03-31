@@ -4,6 +4,8 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 import './style/base.css'
 import './style/home.css'
 import './style/user.css'
+import './style/setting.css'
+
 import Home from './components/Home'
 import User from './components/User'
 import Charger from './components/Charger'

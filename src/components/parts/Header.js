@@ -7,7 +7,7 @@ function Header (props) {
             <div className="top">
                 <ul className="nav">
                   <li className="button-dropdown">
-                    <Link href="./" className="dropdown-toggle">
+                    <Link to="./" className="dropdown-toggle">
                       <img src="images/home/menu.png" width="30" alt="Menu Icon"/>
                     </Link>
                     <ul className="dropdown-menu">
@@ -23,7 +23,12 @@ function Header (props) {
                     <li>Emon Car Charging</li>
                     <li>@ My House</li>
                 </ul>
-                <div className="setting"><Link href="/setting"><img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/><img src="images/home/preferences.png" width="35" alt="Icon Preferences"/></Link></div>
+                <div className="setting">
+                  <Link to="/setting">
+                    <img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/>
+                    <img src="images/home/preferences.png" width="35" alt="Icon Preferences"/>
+                  </Link>
+                </div>
             </div>
             <div className="status clearfix">
                 <div className="left">
@@ -35,7 +40,7 @@ function Header (props) {
                 <div className="right">
                     <b>Emon Car</b>
                     <img src="images/home/unplug.png" alt="Icon" />
-                    <h4 className="charge" href="/setting">Status: unplug</h4>
+                    <h4 className="charge" to="/setting">Status: unplug</h4>
                 </div>
             </div>
         </header>
