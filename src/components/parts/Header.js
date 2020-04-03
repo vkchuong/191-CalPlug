@@ -25,11 +25,10 @@ class Header extends React.Component {
                       </a>
                       <ul className="dropdown-menu" style={{display: this.state.display?"block":"none"}}>
                         <li> <Link to ="/setting"> User Performance </Link> </li>
-                        <li> <Link to="/setting"> Emon's Car </Link> </li>
-                        <li> <Link to="/setting"> Vehicle 2 </Link> </li>
-                        <li> <Link to="/setting"> Vehicle 3 </Link> </li>
-                        <li> <Link to="/vehicle" className="add"> More Cars </Link> </li>
-                        <li> <Link to="/" className="reset"> Reset </Link> </li>
+                        <li> <Link to ="/setting"> User Preference Settings </Link> </li>
+                        <li> <Link to="/setting"> Vehicles </Link> </li>
+                        <li> <Link to="/vehicle" className="add"> Add Car </Link> </li>
+                        <li> <Link to="/" className="reset"> Reset Garage</Link> </li>
                       </ul>
                     </li>
                   </ul>
