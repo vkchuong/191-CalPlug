@@ -21,7 +21,7 @@ class Setting extends React.Component {
     render() {
         return (
             <div>
-                <header style={{paddingTop: "60px", border: "none"}}>
+                <header style={{paddingTop: "30px", border: "none"}}>
                     <div className="top tab">
                         <ul>
                           <li className="tablinks active" value="Vehicle" onClick={this.handleClick("Vehicle")}>
