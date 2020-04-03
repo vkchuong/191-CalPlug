@@ -36,12 +36,12 @@ class Header extends React.Component {
                       <li>Vehicle: Emon's Car</li>
                       <li>Location: My House</li>
                   </ul>
-                  <div className="setting">
+                  {/* <div className="setting">
                     <Link to="/setting">
                       <img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/>
                       <img src="images/home/preferences.png" width="35" alt="Icon Preferences"/>
                     </Link>
-                  </div>
+                  </div> */}
               </div>
               <div className="status clearfix">
                   <div className="left">
