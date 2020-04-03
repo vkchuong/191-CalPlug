@@ -24,11 +24,12 @@ class Header extends React.Component {
                         <img src="images/home/menu.png" width="30" alt="Menu Icon"/>
                       </a>
                       <ul className="dropdown-menu" style={{display: this.state.display?"block":"none"}}>
-                        <li> <Link to ="/setting"> User Performance </Link> </li>
-                        <li> <Link to ="/setting"> User Preference Settings </Link> </li>
-                        <li> <Link to="/setting"> Vehicles </Link> </li>
-                        <li> <Link to="/vehicle" className="add"> Add Car </Link> </li>
-                        <li> <Link to="/" className="reset"> Reset Garage</Link> </li>
+                        <li> <Link to ="/setting"> Vehicles </Link> </li>
+                        <li> <Link to ="/setting"> Performance </Link> </li>
+                        <li> <Link to ="/setting"> Settings </Link> </li>
+                        {/* <li> <Link to="/setting"> Vehicles </Link> </li> */}
+                        {/* <li> <Link to="/vehicle" className="add"> Add Car </Link> </li> */}
+                        {/* <li> <Link to="/" className="reset"> Reset Garage</Link> </li> */}
                       </ul>
                     </li>
                   </ul>
@@ -36,12 +37,12 @@ class Header extends React.Component {
                       <li>Vehicle: Emon's Car</li>
                       <li>Location: My House</li>
                   </ul>
-                  {/* <div className="setting">
+                  <div className="setting">
                     <Link to="/setting">
-                      <img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/>
+                      {/* <img src="https://img.icons8.com/metro/52/000000/combo-chart.png" width="35" alt="Icon Chart"/> */}
                       <img src="images/home/preferences.png" width="35" alt="Icon Preferences"/>
                     </Link>
-                  </div> */}
+                  </div>
               </div>
               <div className="status clearfix">
                   <div className="left">
