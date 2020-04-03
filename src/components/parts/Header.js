@@ -46,13 +46,13 @@ class Header extends React.Component {
               <div className="status clearfix">
                   <div className="left">
                       <div>
-                        <h2>Projected Monthly Savings</h2>
+                        <h2>This Month's Savings</h2>
                         <span><img src="images/save/lv5.png" className="piggybank" style={{width: 60}} alt="Icon" />
                           <span className="money-savings">$40.38</span>
                         </span>
                       </div>
                       <div>
-                        <h2>Trees Planted <img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
+                        <h2>Trees Planted This Month<img src="images/home/info.png" className="tree" style={{width: 12}} alt="Icon" /></h2>
                         <span><i className="icon"><img src="images/tree/lv5.png" className="tree" style={{width: 60}} alt="Icon" /></i>
                           <span className="tree-savings">x10.5</span>
                         </span>
