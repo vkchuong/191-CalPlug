@@ -24,6 +24,7 @@ class Header extends React.Component {
                         <img src="images/home/menu.png" width="30" alt="Menu Icon"/>
                       </a>
                       <ul className="dropdown-menu" style={{display: this.state.display?"block":"none"}}>
+                        <li> <Link to ="/setting"> User Performance </Link> </li>
                         <li> <Link to="/setting"> Emon's Car </Link> </li>
                         <li> <Link to="/setting"> Vehicle 2 </Link> </li>
                         <li> <Link to="/setting"> Vehicle 3 </Link> </li>

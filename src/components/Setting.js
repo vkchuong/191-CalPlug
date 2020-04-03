@@ -77,6 +77,23 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
+
+                        <section className="percent">
+                            <div id="labelHolder">
+                                <span id="text-0" class="text">Cost <img src="images/setting/ask_question.png" width="20" alt="Factorsclear"></img></span>
+                                <span id="text-1" class="text">Env <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
+                                <span id="text-2" class="text">Soc <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
+                                <span id="label-0" style={{left: 26}}>36</span>
+                                <span id="label-1" style={{left: 58}}>32</span>
+                                <span id="label-2" style={{right: 10}}>32</span>
+                            </div>
+                            <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                <div class="ui-slider-range ui-corner-all ui-widget-header" style={{left:36, width:32}}></div>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style={{left:36}}></span>
+                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style={{left: 68}}></span>
+                            </div>
+                        </section>
+
                         <section className="log">
                             <InputSelect
                                 label="Ready Before"
