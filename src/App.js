@@ -8,7 +8,9 @@ import './style/setting.css'
 
 import Home from './components/Home'
 import User from './components/User'
+import Login from './components/Login'
 import Charger from './components/Charger'
+import Energy from './components/Energy'
 import Vehicle from './components/Vehicle'
 import Setting from './components/Setting'
 
@@ -17,11 +19,13 @@ function App() {
     <div>
         <BrowserRouter>
             <Switch>
-                <Route path="/" exact component={User} />
-                <Route path="/user" component={User} />
-                <Route path="/home" exact component={Home} />
+                <Route path="/" exact component={Login} />
+                <Route path="/login" component={Login} />
                 <Route path="/charger" component={Charger} />
+                <Route path="/user" component={User} />
+                <Route path="/energy" component={Energy} />
                 <Route path="/vehicle" component={Vehicle} />
+                <Route path="/home" component={Home} />
                 <Route path="/setting" component={Setting} />
             </Switch>
         </BrowserRouter>

@@ -37,7 +37,8 @@ function Vehicle() {
                 You can always add more cars later!
             </section>
         </main>
-        <Link to="/home" className="next">Next</Link>
+        <Link to="/energy" className="btn back">Back</Link>
+        <Link to="/home" className="btn next">Next</Link>
     </div>
   )
 }

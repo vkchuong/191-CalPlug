@@ -15,7 +15,8 @@ function Charger() {
                 <input type="text" name="evseid" placeholder="EVSE ID" />
             </section>
         </main>
-        <Link to="/vehicle" className="next">Next</Link>
+        <Link to="/login" className="btn back">Back</Link>
+        <Link to="/user" className="btn next">Next</Link>
     </div>
   );
 }

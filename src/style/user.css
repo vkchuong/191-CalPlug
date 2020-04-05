@@ -3,8 +3,8 @@ main {
   display:block;
 }
 .resetTop {
-  position: absolute;
-  top: 20px;
+  /*position: absolute;*/
+  /*top: 20px;*/
 }
 h2.title {
   font-size:24px;
@@ -36,20 +36,32 @@ section.charger-info .label {
 section.vehicle-info .label {
   margin: 15px 0px 0px;
 }
+section.user-info .label {
+  margin: 15px 0px 0px;
+}
 section.note {
   margin-top: 70px;
   color:#777;
   text-align: center;
 }
-
-a.next {
+a.btn {
   border: 1px solid #ccc;
   padding: 10px 30px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.next {
   color: #65CB87;
   background-color: #fff;
-  border-radius: 20px;
-  text-decoration: underline;
-  position: absolute;
-  bottom: -20px;
-  right: 0px;
+  right: 10%;
+}
+a.back {
+  color: #65CB87;
+  background-color: #fff;
+  left: 10%;
+}
+a.signup {
+  color: #fff;
+  background-color: #65CB87;
+  left: 10%;
 }
