@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 
 // Import Components
 import Logo from "./parts/Logo"
-import InputSelect from "./parts/InputSelect"
 
 function User() {
     return (
