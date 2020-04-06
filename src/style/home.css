@@ -233,12 +233,11 @@ header .status .charge {
 main {
   height:auto;
   display:block;
-  margin-bottom:30px;
+  margin-bottom:15px;
 }
 
 main .profile {
   text-align:left;
-  margin-bottom:30px;
 }
 
 main .profile .option {
@@ -305,8 +304,7 @@ h3.title {
 }
 
 footer p {
-  line-height: 40px;
-  padding-top: 10px;
+  line-height: 30px;
   font-weight: 700;
 }
 
@@ -321,7 +319,7 @@ footer .chargenow {
 
 .refresh {
     font-size: 16px;
-    line-height: 5px;
+    line-height: 0px;
     color: rgba(24,160,251,0.7);
     text-align: right;
     margin: 0px 40px;
