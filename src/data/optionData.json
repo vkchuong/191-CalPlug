@@ -5,7 +5,8 @@
         "charge": "2 hr",
         "ready": "3:00",
         "tree": 1,
-        "save": 0
+        "save": 0,
+        "clicks": 0
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "charge": "3 hr",
         "ready": "4:00",
         "tree": 2,
-        "save": 4
+        "save": 4,
+        "clicks": 0
     },
     {
         "id": 3,
@@ -21,6 +23,7 @@
         "charge": "5 hr",
         "ready": "6:00",
         "tree": 5,
-        "save": 5
+        "save": 5,
+        "clicks": 0
     }
 ]
