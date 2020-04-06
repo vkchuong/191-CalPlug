@@ -53,26 +53,26 @@ a.btn {
 a.next {
   color: #65CB87;
   background-color: #fff;
-  right: 10%;
+  right: 5%;
 }
 a.back {
   color: #000;
   background-color: #fff;
-  left: 10%;
+  left: 5%;
 }
 a.signup {
   color: #fff;
   background-color: #65CB87;
-  left: 10%;
+  left: 5%;
 }
 
 a.add {
   color: #fff;
   background-color: #0984e3;
-  right: 30%;
+  right: 25%;
 }
 a.remove {
   color: #fff;
   background-color: #ff7675;
-  left: 30%;
+  left: 25%;
 }
