@@ -153,50 +153,6 @@ main span#text-2 {
     right: 0;
     color: #88CFFE;
 }
-/* End User */
-
-.backbtn
-{
-  float: left;
-  color:#040404;
-  border: 1px solid #ccc;
-  padding: 10px 30px;
-  background-color: #fff;
-  border-radius: 20px;
-}
-
-.savebtn
-{
-  float: right;
-  border: 1px solid #ccc;
-  padding: 10px 30px;
-  color: #65CB87;
-  background-color: #fff;
-  border-radius: 20px;
-}
-/* Begin Dialog*/
-#dialog h3
-{
-  color:#65CB87;
-  font-weight:700;
-  line-height:35px
-}
-
-#dialog p
-{
-  line-height:18px;
-  text-indent:30px;
-  margin-bottom:10px
-}
-
-.ui-dialog .ui-widget-header {
-  background-color: #fff;
-  border: none;
-  font-weight: bold;
-  text-align: center;
-  font-weight: 900;
-}
-/* End Dialog*/
 
 @media (min-width: 801px) {
   .tab

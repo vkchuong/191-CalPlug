@@ -56,7 +56,7 @@ a.next {
   right: 10%;
 }
 a.back {
-  color: #65CB87;
+  color: #000;
   background-color: #fff;
   left: 10%;
 }
@@ -64,4 +64,15 @@ a.signup {
   color: #fff;
   background-color: #65CB87;
   left: 10%;
+}
+
+a.add {
+  color: #fff;
+  background-color: #0984e3;
+  right: 30%;
+}
+a.remove {
+  color: #fff;
+  background-color: #ff7675;
+  left: 30%;
 }

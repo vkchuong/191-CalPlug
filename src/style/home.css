@@ -137,11 +137,27 @@ header .carinfo {
   width: 70%;
   margin: 0 auto;
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 100px;
   color: #000;
-  font-size: 90%;
+  font-size: 100%;
   padding: 0;
+  text-align: center;
+}
+
+header .carinfo li{
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+header .carinfo li:last-child{
+  border: none;
+}
+
+header .carinfo li.active{
+  font-weight: bold;
 }
 
 header .status {
@@ -277,7 +293,6 @@ main .profile .detail {
 footer {
   display: block;
   text-align: center;
-  margin-top: -30px;
   bottom: 0;
 }
 

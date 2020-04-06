@@ -14,6 +14,15 @@ class Header extends React.Component {
          return {"display": prev.display ? false : true}
       })
     }
+
+    changeEV = cityName => e => {
+        let tablinks = document.getElementsByClassName("evlink");
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        e.currentTarget.className += " active"
+    }
+
     render() {
       return (
           <header>
@@ -27,15 +36,13 @@ class Header extends React.Component {
                         <li> <Link to ="/setting"> Vehicles </Link> </li>
                         <li> <Link to ="/setting"> Performance </Link> </li>
                         <li> <Link to ="/setting"> Settings </Link> </li>
-                        {/* <li> <Link to="/setting"> Vehicles </Link> </li> */}
-                        {/* <li> <Link to="/vehicle" className="add"> Add Car </Link> </li> */}
-                        {/* <li> <Link to="/" className="reset"> Reset Garage</Link> </li> */}
                       </ul>
                     </li>
                   </ul>
                   <ul className="carinfo">
-                      <li>Vehicle: Emon's Car</li>
-                      <li>Location: My House</li>
+                    <li className="evlink " value="Vehicle" onClick={this.changeEV("Vehicle")}>Car 1</li>
+                    <li className="evlink active" value="User" onClick={this.changeEV("User")}>Emon's Car</li>
+                    <li className="evlink " value="Charger" onClick={this.changeEV("Charger")}>Car 3</li>
                   </ul>
                   <div className="setting">
                     <Link to="/setting">

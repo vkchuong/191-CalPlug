@@ -21,7 +21,7 @@ class Setting extends React.Component {
     render() {
         return (
             <div>
-                <header style={{paddingTop: "30px", border: "none"}}>
+                <header style={{paddingTop: "80px", border: "none"}}>
                     <div className="top tab">
                         <ul>
                           <li className="tablinks active" value="Vehicle" onClick={this.handleClick("Vehicle")}>
@@ -66,6 +66,8 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
+                        <Link className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
+                        <Link to="./home" className="btn add">Add</Link>
                     </div>
 
                     <div id="User" className="tabcontent">
@@ -112,6 +114,7 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
+                        <Link to="./user" className="btn add">Edit</Link>
                     </div>
                     <div id="Charger" className="tabcontent">
                         <section className="log">
@@ -141,11 +144,13 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
+                        <Link className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
+                        <Link to="./charger" className="btn add">Add</Link>
                     </div>
                 </main>
                 <footer>
-                    <Link to="./home" className="backbtn">Back</Link>
-                    <Link to="./home" className="savebtn">Save</Link>
+                    <Link to="./home" className="btn back">Back</Link>
+                    <Link to="./home" className="btn next">Save</Link>
                 </footer>
             </div>
         )
