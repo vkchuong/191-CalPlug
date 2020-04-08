@@ -15,7 +15,7 @@ function User() {
                 <InputSelect
                     label="Tell us about your Energy Provider"
                     name="provider"
-                    options={[ "chocolate", "vinh" ]}
+                    options={[ "SDG&E", "SoCal Edison", "PG&E" ]}
                 />
                 <input type="number" name="zipcode" placeholder="Zip Code" />
             </section>
