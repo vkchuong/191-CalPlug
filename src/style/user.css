@@ -44,34 +44,34 @@ section.note {
   color:#777;
   text-align: center;
 }
-a.btn {
+.btn {
   border: 1px solid #ccc;
   padding: 10px 30px;
   border-radius: 20px;
   position: absolute;
 }
-a.next {
+.next {
   color: #65CB87;
   background-color: #fff;
   right: 5%;
 }
-a.back {
+.back {
   color: #000;
   background-color: #fff;
   left: 5%;
 }
-a.signup {
+.signup {
   color: #fff;
   background-color: #65CB87;
   left: 5%;
 }
 
-a.add {
+.add {
   color: #fff;
   background-color: #0984e3;
   right: 25%;
 }
-a.remove {
+.remove {
   color: #fff;
   background-color: #ff7675;
   left: 25%;
