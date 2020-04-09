@@ -1,33 +1,72 @@
-import React from 'react'
-import { Link } from "react-router-dom"
+import React from 'react';
+import { Link } from "react-router-dom";
+import Collapsible from 'react-collapsible';
 
 // Import Components
-import Logo from "./parts/Logo"
+import '../style/preferences.css'
 
-function User() {
-    return (
-    <div className="resetTop">
-        <Logo />
-        <main>
-            <h2 className="title"><img src="images/start/driver.png" width="50px"  alt="Driver"/> Let's get started.</h2>
-            <section className="user-info">
-                <h3 className="label">Tell us about yourself</h3>
-                <input type="text" name="fname" placeholder="First Name" />
-                <input type="text" name="lname" placeholder="Last Name" />
-            </section>
-            <section className="user-info">
-                <h3 className="label">Username</h3>
-                <input type="text" name="fname" placeholder="Username" />
-                <h3 className="label">Password</h3>
-                <input type="password" name="password" placeholder="Password" />
-                <h3 className="label">Confirm Password</h3>
-                <input type="password" name="password2" placeholder="Confirm Password" />
-            </section>
-        </main>
-        <Link to="/charger" className="btn back">Back</Link>
-        <Link to="/energy" className="btn next">Next</Link>
-    </div>
-    );
+class Preferences extends React.Component {
+
+    constructor(){
+        super();
+        var inputLeft = document.getElementById("input-left");
+        var inputRight = document.getElementById("input-right");
+    
+        var thumbLeft = document.querySelector(".slider > .thumb.left")
+        var thumbRight = document.querySelector(".slider > .thumb.right")
+        var range = document.querySelector(".slider > .range")
+    
+        function setLeftValue() {
+            var _this = inputLeft,
+                min = parseInt(_this.min),
+                max = parseInt(_this.max);
+    
+            _this.value = Math.min(parseInt(_this.value), parseInt(inputRight.value) - 1);
+    
+            var percent = ((_this.value - min) / (max - min)) * 100;
+    
+            thumbLeft.style.left = percent + "%";
+            range.style.left = percent + "%";
+        }
+
+        // inputLeft.addEventListener("input", setLeftValue);
+    }
+    
+    
+    render() {
+        return (
+            <div>
+                <div className="topSection">
+                    <div className="multi-range-slider">
+                        <input type="range" id="input-left" min="0" max="100" value="75"/>
+                        <input type="range" id="input-right" min="0" max="100" value="75"/>
+    
+                        <div className="slider">
+                            <div className="track"></div>
+                            <div className="range"></div>
+                            <div className="thumb left"></div>
+                            <div className="thumb right"></div>
+                        </div>
+                    </div>
+                </div>
+                <h1 className="values">Values Shown Here</h1>
+                <Collapsible trigger="Cost">
+                    <p>Cost Description</p>
+                </Collapsible>
+                <Collapsible trigger="Environment">
+                    <p>Environment Description</p>
+                </Collapsible>
+                <Collapsible trigger="Society">
+                    <p>Society Description</p>
+                </Collapsible>
+                <footer>
+                    <Link to="./home" className="btn back">Back</Link>
+                    <Link to="./home" className="btn next">Save</Link>
+                </footer>
+            </div>
+        )
+    }
+    
 }
 
-export default User;
+export default Preferences;

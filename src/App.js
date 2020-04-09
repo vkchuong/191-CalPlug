@@ -13,6 +13,7 @@ import Charger from './components/Charger'
 import Energy from './components/Energy'
 import Vehicle from './components/Vehicle'
 import Setting from './components/Setting'
+import Preferences from './components/Preferences'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                 <Route path="/vehicle" component={Vehicle} />
                 <Route path="/home" component={Home} />
                 <Route path="/setting" component={Setting} />
+                <Route path="/preferences" component={Preferences} />
             </Switch>
         </BrowserRouter>
     </div>

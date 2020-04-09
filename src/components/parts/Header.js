@@ -36,6 +36,7 @@ class Header extends React.Component {
                         <li> <Link to ="/setting"> Vehicles </Link> </li>
                         <li> <Link to ="/setting"> Performance </Link> </li>
                         <li> <Link to ="/setting"> Settings </Link> </li>
+                        <li> <Link to ="/preferences"> Preferences </Link> </li>
                       </ul>
                     </li>
                   </ul>
