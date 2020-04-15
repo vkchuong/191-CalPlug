@@ -45,7 +45,7 @@ class App extends React.Component {
         event.preventDefault()
         if(this.state.username.length > 0) {
             axios.post(
-                'http://code.com/update.php',
+                'https://calplug.club/data/update.php',
                 {user: this.state},
                 { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }
             )
@@ -58,7 +58,7 @@ class App extends React.Component {
         event.preventDefault()
         if(this.state.username.length > 0) {
             axios.post(
-                'http://code.com/update.php',
+                'https://calplug.club/data/update.php',
                 {username: this.state.username},
                 { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }
             )
