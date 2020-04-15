@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import Logo from "./parts/Logo"
 import InputSelect from "./parts/InputSelect"
 
-function User() {
+function User(props) {
     return (
         <div className="resetTop">
         <Logo />
@@ -15,9 +15,11 @@ function User() {
                 <InputSelect
                     label="Tell us about your Energy Provider"
                     name="provider"
+                    value={props.provider}
+                    handleChange={props.handleChange}
                     options={[ "SDG&E", "SoCal Edison", "PG&E" ]}
                 />
-                <input type="number" name="zipcode" placeholder="Zip Code" />
+                <input type="number" name="zipcode" value={props.zipcode} onChange={props.handleChange}  placeholder="Zip Code" />
             </section>
 
             <section className="user-info">

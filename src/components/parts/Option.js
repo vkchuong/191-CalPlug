@@ -1,8 +1,14 @@
 import React from "react"
+import axios from 'axios'
 
 class Option extends React.Component {
     handleClick = (event) => {
-        this.props.item.clicks += 1
+        axios.post(
+            'http://code.com/update.php',
+            {click: this.props.item.id},
+            { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }
+        )
+        .then(res => console.log(res.data.data))
     }
 
     render() {

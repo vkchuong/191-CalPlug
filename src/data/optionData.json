@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "label": "Great Societal Impact",
+        "label": "[1] Great Societal Impact",
         "charge": "2 hr",
         "ready": "3:00",
         "tree": 1,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "label": "Save money",
+        "label": "[2] Save money",
         "charge": "3 hr",
         "ready": "4:00",
         "tree": 2,
@@ -19,10 +19,64 @@
     },
     {
         "id": 3,
-        "label": "Save Money and Environment",
+        "label": "[3] Save Money and Environment",
         "charge": "5 hr",
         "ready": "6:00",
         "tree": 5,
+        "save": 1,
+        "clicks": 0
+    },
+    {
+        "id": 4,
+        "label": "[4] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 2,
+        "save": 5,
+        "clicks": 0
+    },
+    {
+        "id": 5,
+        "label": "[5] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 3,
+        "save": 4,
+        "clicks": 0
+    },
+    {
+        "id": 6,
+        "label": "[6] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 5,
+        "save": 2,
+        "clicks": 0
+    },
+    {
+        "id": 7,
+        "label": "[7] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 4,
+        "save": 1,
+        "clicks": 0
+    },
+    {
+        "id": 8,
+        "label": "[8] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 1,
+        "save": 4,
+        "clicks": 0
+    },
+    {
+        "id": 9,
+        "label": "[9] Save Money and Environment",
+        "charge": "5 hr",
+        "ready": "6:00",
+        "tree": 0,
         "save": 5,
         "clicks": 0
     }

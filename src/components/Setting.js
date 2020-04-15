@@ -66,7 +66,7 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
-                        <Link className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
+                        <Link to="#" className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
                         <Link to="./home" className="btn add">Add</Link>
                     </div>
 
@@ -82,17 +82,17 @@ class Setting extends React.Component {
 
                         <section className="percent">
                             <div id="labelHolder">
-                                <span id="text-0" class="text">Cost <img src="images/setting/ask_question.png" width="20" alt="Factorsclear"></img></span>
-                                <span id="text-1" class="text">Env <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
-                                <span id="text-2" class="text">Soc <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
+                                <span id="text-0" className="text">Cost <img src="images/setting/ask_question.png" width="20" alt="Factorsclear"></img></span>
+                                <span id="text-1" className="text">Env <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
+                                <span id="text-2" className="text">Soc <img src="images/setting/ask_question.png" width="20" alt="Factors"></img></span>
                                 <span id="label-0" style={{left: 26}}>36</span>
                                 <span id="label-1" style={{left: 58}}>32</span>
                                 <span id="label-2" style={{right: 10}}>32</span>
                             </div>
-                            <div id="slider" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-                                <div class="ui-slider-range ui-corner-all ui-widget-header" style={{left:36, width:32}}></div>
-                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style={{left:36}}></span>
-                                <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style={{left: 68}}></span>
+                            <div id="slider" className="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                <div className="ui-slider-range ui-corner-all ui-widget-header" style={{left:36, width:32}}></div>
+                                <span className="ui-slider-handle ui-corner-all ui-state-default" style={{left:36}}></span>
+                                <span className="ui-slider-handle ui-corner-all ui-state-default" style={{left: 68}}></span>
                             </div>
                         </section>
 
@@ -144,7 +144,7 @@ class Setting extends React.Component {
                                 </ul>
                             </div>
                         </section>
-                        <Link className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
+                        <Link to="#" className="btn remove" onClick={() => alert("Do you want to delete this?")}>Remove</Link>
                         <Link to="./charger" className="btn add">Add</Link>
                     </div>
                 </main>
