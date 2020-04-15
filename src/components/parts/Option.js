@@ -4,7 +4,7 @@ import axios from 'axios'
 class Option extends React.Component {
     handleClick = (event) => {
         axios.post(
-            'http://code.com/update.php',
+            'https://calplug.club/data/update.php',
             {click: this.props.item.id},
             { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } }
         )
